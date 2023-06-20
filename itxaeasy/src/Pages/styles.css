@@ -1,0 +1,10 @@
+.head1 {
+  border: 1px solid grey;
+  padding: 2px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 1%;
+  border-radius: 8px;
+}
