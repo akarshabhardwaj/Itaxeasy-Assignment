@@ -6,7 +6,7 @@ The Advance Tax Calculator and House Rent Allowance (HRA) Calculator is a user-f
 
 To see the live site click the below link.
 
-https://befchef.netlify.app/
+https://incometaxandhouserentallownace.netlify.app/
 
 ## Tech Stack
 
@@ -61,51 +61,24 @@ https://befchef.netlify.app/
 
 ## Some screenshots of the project
 
-## Admin Login Page
+## HomePage(Light Theme)
 
-<img src="./screenshot/adminlogin.jpg">
+<img src="./ScreenShots/HomePage(Light).png">
 
-## Admin Page Home
+## HomePage(Dark Theme)
 
-<img src="./screenshot/adminpagehome.jpg">
+<img src="./ScreenShots/HomePage(dark).png">
 
-## AddPageAdmin
+## HouseRentAllowance Calculators
 
-<img src="./screenshot/addpageadmin.jpg">
+<img src="./ScreenShots/HouseRentAllowance.png">
 
-## Delete Page Admin
+## Advance Tax Calculator
 
-<img src="./screenshot/deletepageadmin.jpg">
+<img src="./ScreenShots/DiffernentCategories.png">
 
-## Update Page Admin
+## Different Forms
 
-<img src="./screenshot/updatepageadmin.jpg">
+<img src="./ScreenShots/DifferentForms(Tax%20Calculator).png">
 
-## HomePage done
-
-<img src="./screenshot/homepage.jpg">
-
-## Login Page
-
-<img src="./screenshot/login.jpg">
-
-## Category Page
-
-<img src="./screenshot/category.jpg">
-
-## Single Product Page
-
-<img src="./screenshot/singlepage.jpg">
-
-## Cart Page
-
-<img src="./screenshot/cartpage.jpg">
-
-## Checkout Page
-
-<img src="./screenshot/checkoutpage.jpg">
-
-## Payment Page
-
-<img src="./screenshot/PaymentPage.jpg">
-### Thanks for reading
+## Thanks for reading
