@@ -3,6 +3,7 @@ import HufForm from './HufForm'
 import DomesticForm from './DomesticForm'
 import ForeignForm from './ForeignForm'
 import Cooperative from './CooperativeForm'
+import IndividualForm from './IndividualForm'
 
 const DisplayFormComponent = ({ selected }) => {
     console.log(selected)
@@ -25,9 +26,15 @@ const DisplayFormComponent = ({ selected }) => {
             <div><Cooperative /></div>
         )
     }
+    else if (selected === "Individual") {
+        return (
+            <div><IndividualForm /></div>
+        )
+    }
+
     else {
         return (
-            <div><HufForm /></div>
+            <div><DomesticForm /></div>
         )
     }
 }
