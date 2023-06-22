@@ -125,6 +125,23 @@ const IndividualForm = () => {
     // setAccessed(final);
   };
 
+  const HandleReset = () => {
+    setNetIncome(0);
+    setHouseproperty(0);
+    setCapitalgains(0);
+    setProfit(0);
+    setOther(0);
+    setAgriculture(0);
+    setDeduction(0);
+    setSurcharge(0);
+    setHealthCess(0);
+    setTotalTaxLiability(0);
+    setRelief(0);
+    setTds(0);
+    setAccessed(0);
+    setIncomeTax(0);
+  };
+
   const table_attributes = {
     display: change ? "block" : "none",
   };
@@ -448,11 +465,42 @@ const IndividualForm = () => {
           <Button bg="tomato" onClick={CalculateAdvanceTax} color="white">
             Calculate
           </Button>
-          <Button bg="gray" color="white">
+          <Button bg="gray" onClick={HandleReset} color="white">
             Reset
           </Button>
         </Flex>
       </>
+      <TableContainer
+        border={"1px solid grey"}
+        padding="10px"
+        width={"85%"}
+        margin="auto"
+        marginTop="2%"
+        marginBottom="2%"
+      >
+        <Table>
+          <Thead border={"1px solid grey"}>
+            <Th border={"1px solid grey"}>Net Payable Income</Th>
+            <Th border={"1px solid grey"}>House Property</Th>
+            <Th border={"1px solid grey"}>Capital Gain</Th>
+            <Th border={"1px solid grey"}>Income Tax</Th>
+            <Th border={"1px solid grey"}>Surcharge</Th>
+            <Th border={"1px solid grey"}>TDS</Th>
+            <Th border={"1px solid grey"}>Final Accessed Tax</Th>
+          </Thead>
+          <Tbody border={"1px solid grey"}>
+            <Tr>
+              <Td border={"1px solid grey"}>{netincome}</Td>
+              <Td border={"1px solid grey"}>{houseproperty}</Td>
+              <Td border={"1px solid grey"}>{capitalgain}</Td>
+              <Td border={"1px solid grey"}>{incomeTax}</Td>
+              <Td border={"1px solid grey"}>{surcharge}</Td>
+              <Td border={"1px solid grey"}>{tds}</Td>
+              <Td border={"1px solid grey"}>{accessed}</Td>
+            </Tr>
+          </Tbody>
+        </Table>
+      </TableContainer>
     </div>
   );
 };
